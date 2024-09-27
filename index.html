@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ankit Yadav</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="Ankit logo.png" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+  </head>
+
+  <body>
+    <div class="cur-top">
+      <div class="cursor"></div>
+    </div>
+    <div class="fan">
+      <img src="./fan.png" height="30" width="30" />
+    </div>
+    <div class="loader">
+      <h1>ANKIT YADAV</h1>
+      <div class="dot"></div>
+    </div>
+    <main>
+      <header>
+        <nav>
+          <div id="nav_left">
+            <h2>Ankit Yadav</h2>
+            <ul>
+              <li class="btn-skill">Skills</li>
+              <li class="btn-proj">Projects</li>
+            </ul>
+          </div>
+          <div id="nav_right">
+            <p>Let's Connect</p>
+            <div>
+              <input
+                type="text"
+                value="ankityadav12502@gmail.com"
+                id="emailToCopy"
+              />
+              <button id="copy" onclick="copyEmail()">
+                <i class="fa-solid fa-copy"></i>
+              </button>
+            </div>
+          </div>
+          <i id="bar" class="fa-solid fa-bars"></i>
+          <div id="respo">
+            <div
+              id="up"
+              style="
+                margin-bottom: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: calc(2.5vw - 20px) calc(9vw-20px);
+              "
+            >
+              <i id="close" class="fa-solid fa-xmark"></i>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div class="section-1">
+        <div style="display: flex; flex-direction: column">
+          <h1>
+            Frontend <br />
+            Web Developer
+          </h1>
+        </div>
+      </div>
+      <div class="image">
+        <img class="me" src="Ankit img.jpg" />
+      </div>
+      <div id="skills" class="section-2">
+        <h1>Skills.</h1>
+        <div class="wrapper-2">
+          <div class="cards">
+            <i class="fa-brands fa-html5"></i>
+            <p>
+              With strong HTML skills, I create responsive and dynamic websites
+              effortlessly.
+            </p>
+          </div>
+          <div class="cards">
+            <i class="fa-brands fa-css3-alt"></i>
+            <p>
+              My CSS proficiency enhances web designs with style,
+              responsiveness, and creativity
+            </p>
+          </div>
+
+          <div class="cards">
+            <i class="fa-brands fa-square-js"></i>
+            <p>
+              JavaScript knowledge of Mine allows basic web interactivity and
+              functionality development.
+            </p>
+          </div>
+
+          <div class="cards">
+            <i class="ri-reactjs-line"></i>
+            <p>
+              I'm keen to broaden my ReactJS skills and explore new horizons.
+            </p>
+          </div>
+
+          <div class="cards">
+            <i class="fa-brands fa-node"></i>
+            <p>
+              I have a solid grasp of Node.js and am eager to push my skills
+              further.
+            </p>
+          </div>
+          <div class="cards">
+            <img
+              src="logo.svg"
+              height="45px"
+              style="margin: 30px 0 20px 0"
+              alt=""
+            />
+            <p>I excel in GSAP, creating dynamic and captivating animations.</p>
+          </div>
+          <div class="cards">
+            <i class="ri-tailwind-css-fill"></i>
+            <p>
+              I've got a knack for Tailwind CSS and I'm keen to polish my
+              skills.
+            </p>
+          </div>
+
+          <div class="cards">
+            <i class="ri-java-line"></i>
+            <p>I'm keen to broaden my Java skills and explore new horizons.</p>
+          </div>
+
+          <div class="cards">
+            <i class="ri-database-2-line"></i>
+            <p>
+              I have a solid grasp of Database and am eager to push my skills
+              further.
+            </p>
+          </div>
+
+          <div class="cards">
+            <i class="ri-nextjs-fill"></i>
+            <p>
+              I have a solid grasp of NextJS and am eager to push my skills
+              further.
+            </p>
+          </div>
+
+          <div class="cards">
+            <i class="fa-brands fa-linux"></i>
+            <p>I have basic Linux skills and aim to develop them further.</p>
+          </div>
+        </div>
+      </div>
+      <div id="section-3" class="section-3">
+        <h1>Projects</h1>
+        <p>
+          Crafting Seamless User Experiences: <br />
+          Transforming Ideas into Responsive Websites with Precision and
+          Elegance.
+        </p>
+
+        <div class="project">
+          <p
+            style="
+              text-align: left;
+              font-size: 30px;
+              font-family: 'oswald';
+              width: 100%;
+              padding: 0 4vw;
+            "
+          >
+            Brain Space
+          </p>
+          <div class="project-top">
+            <img class="per-mob" src="BrainSpace.png" />
+            <img class="per-desk" src="BrainSpace.png" />
+          </div>
+          <div class="project-bot">
+            <p><span>BrainSpace</span> - A frontend Website with animations</p>
+            <a target="_blank" href="https://brain-space-nine.vercel.app/"
+              >Visit Site<i
+                class="ri-arrow-right-up-line"
+                style="font-size: 20px"
+              ></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="project">
+          <p
+            style="
+              text-align: left;
+              font-size: 30px;
+              font-family: 'oswald';
+              width: 100%;
+              padding: 0 4vw;
+            "
+          >
+            Hotel Taj
+          </p>
+          <div class="project-top">
+            <img
+              class="per-desk"
+              src="Hotel Taj.png"
+              style="scale: 1.01"
+              alt=""
+            />
+            <img class="per-mob" src="Hotel Taj.png" alt="" />
+          </div>
+          <div class="project-bot">
+            <p><span>Hotel Taj</span> - A Frontend Animated Website</p>
+            <a target="_blank" href="https://hotel-taj-web.vercel.app/"
+              >Visit Site<i
+                class="ri-arrow-right-up-line"
+                style="font-size: 20px"
+              ></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="project">
+          <p
+            style="
+              text-align: left;
+              font-size: 30px;
+              font-family: 'oswald';
+              width: 100%;
+              padding: 0 4vw;
+            "
+          >
+            Class Motor Cycle
+          </p>
+          <div class="project-top">
+            <img class="per-mob" src="Classic Motor Cycle.png" />
+            <img class="per-desk" src="Classic Motor Cycle.png" />
+          </div>
+          <div class="project-bot">
+            <p>
+              <span>Classic Motor Cycle </span> - A frontend responsive Website
+              with animations
+            </p>
+            <a
+              target="_blank"
+              href="https://classic-motor-cycle-c99y.vercel.app/"
+              >Visit Site<i
+                class="ri-arrow-right-up-line"
+                style="font-size: 20px"
+              ></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="project">
+          <p
+            style="
+              text-align: left;
+              font-size: 30px;
+              font-family: 'oswald';
+              width: 100%;
+              padding: 0 4vw;
+            "
+          >
+            Luxecar Web
+          </p>
+          <div class="project-top">
+            <img
+              class="per-desk"
+              src="Lurecar desktop.png"
+              style="scale: 1.01"
+              alt=""
+            />
+            <img class="per-mob" src="Lurecar desktop.png" alt="" />
+          </div>
+          <div class="project-bot">
+            <p><span>Luxecar</span> - A Frontend Website</p>
+            <a target="_blank" href="https://luxecar-project.vercel.app/"
+              >Visit Site<i
+                class="ri-arrow-right-up-line"
+                style="font-size: 20px"
+              ></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="project">
+          <p
+            style="
+              text-align: left;
+              font-size: 30px;
+              font-family: 'oswald';
+              width: 100%;
+              padding: 0 4vw;
+            "
+          >
+            Bownds Ranches
+          </p>
+          <div class="project-top">
+            <img class="per-mob" src="Bownds ranches.png" />
+            <img class="per-desk" src="Bownds ranches.png" />
+          </div>
+          <div class="project-bot">
+            <p>
+              <span>Bownds Ranches</span> - A frontend Website with animations
+            </p>
+            <a target="_blank" href="https://bownds-ranches-one.vercel.app/"
+              >Visit Site<i
+                class="ri-arrow-right-up-line"
+                style="font-size: 20px"
+              ></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="project">
+          <p
+            style="
+              text-align: left;
+              font-size: 30px;
+              font-family: 'oswald';
+              width: 100%;
+              padding: 0 4vw;
+            "
+          >
+            Property Website
+          </p>
+          <div class="project-top">
+            <img
+              class="per-desk"
+              src="Property Web.png"
+              style="scale: 1.01"
+              alt=""
+            />
+            <img class="per-mob" src="Property Web.png" alt="" />
+          </div>
+          <div class="project-bot">
+            <p><span>Property Web</span> - A Frontend Animated Website</p>
+            <a target="_blank" href="https://property-website-xi.vercel.app/"
+              >Visit Site<i
+                class="ri-arrow-right-up-line"
+                style="font-size: 20px"
+              ></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="project">
+          <p
+            style="
+              text-align: left;
+              font-size: 30px;
+              font-family: 'oswald';
+              width: 100%;
+              padding: 0 4vw;
+            "
+          >
+            SidCup Family Golf Website
+          </p>
+          <div class="project-top">
+            <img class="per-mob" src="Sidcup Familt Golf.png" />
+            <img class="per-desk" src="Sidcup Familt Golf.png" />
+          </div>
+          <div class="project-bot">
+            <p>
+              <span>SidCup Family Golf Website</span> - A frontend responsive
+              Website with animations
+            </p>
+            <a
+              target="_blank"
+              href="https://sidcup-family-golf-gray.vercel.app/"
+              >Visit Site<i
+                class="ri-arrow-right-up-line"
+                style="font-size: 20px"
+              ></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="project">
+          <p
+            style="
+              text-align: left;
+              font-size: 30px;
+              font-family: 'oswald';
+              width: 100%;
+              padding: 0 4vw;
+            "
+          >
+            We Think Elastic
+          </p>
+          <div class="project-top">
+            <img
+              class="per-desk"
+              src="We Think Elastic.png"
+              style="scale: 1.01"
+              alt=""
+            />
+            <img class="per-mob" src="We Think Elastic.png" alt="" />
+          </div>
+          <div class="project-bot">
+            <p><span>We Think Elastic</span> - A Frontend Animated Website</p>
+            <a target="_blank" href="https://we-think-elastic-eta.vercel.app/"
+              >Visit Site<i
+                class="ri-arrow-right-up-line"
+                style="font-size: 20px"
+              ></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="project">
+          <p
+            style="
+              text-align: left;
+              font-size: 30px;
+              font-family: 'oswald';
+              width: 100%;
+              padding: 0 4vw;
+            "
+          >
+            Furniture Shop
+          </p>
+          <div class="project-top">
+            <img class="per-mob" src="Furniture Shop.png" />
+            <img class="per-desk" src="Furniture Shop.png" />
+          </div>
+          <div class="project-bot">
+            <p>
+              <span>Furniture Shop</span> - A frontend responsive Website with
+              animations
+            </p>
+            <a target="_blank" href="https://furniture-shop-fawn.vercel.app/"
+              >Visit Site<i
+                class="ri-arrow-right-up-line"
+                style="font-size: 20px"
+              ></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="project">
+          <p
+            style="
+              text-align: left;
+              font-size: 30px;
+              font-family: 'oswald';
+              width: 100%;
+              padding: 0 4vw;
+            "
+          >
+            Apple Vision Pro
+          </p>
+          <div class="project-top">
+            <img class="per-mob" src="Apple Vision Pro.png" />
+            <img class="per-desk" src="Apple Vision Pro.png" />
+          </div>
+          <div class="project-bot">
+            <p>
+              <span>Apple Vision Pro</span> - A frontend Website with animations
+            </p>
+            <a target="_blank" href="https://apple-vision-pro-flax.vercel.app/"
+              >Visit Site<i
+                class="ri-arrow-right-up-line"
+                style="font-size: 20px"
+              ></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="project">
+          <p
+            style="
+              text-align: left;
+              font-size: 30px;
+              font-family: 'oswald';
+              width: 100%;
+              padding: 0 4vw;
+            "
+          >
+            Rejouice Website
+          </p>
+          <div class="project-top">
+            <img
+              class="per-desk"
+              src="Rejouice.png"
+              style="scale: 1.01"
+              alt=""
+            />
+            <img class="per-mob" src="Rejouice.png" alt="" />
+          </div>
+          <div class="project-bot">
+            <p><span>Rejouice</span> - A Frontend Animated Website</p>
+            <a target="_blank" href="https://rejouice-red.vercel.app/"
+              >Visit Site<i
+                class="ri-arrow-right-up-line"
+                style="font-size: 20px"
+              ></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="section-4">
+        <h1>Get in Touch</h1>
+        <div class="forms">
+          <div class="left">
+            <p>
+              Have a question, comment, or just want to say hello? I'd love to
+              hear from you! Feel free to reach out to me using any of the
+              methods below:
+            </p>
+            <form action="https://formspree.io/f/mvoellbj" method="POST">
+              <input
+                required
+                type="text"
+                name="Name"
+                id="name"
+                placeholder="Your Name"
+              />
+              <input
+                required
+                type="email"
+                name="Email"
+                id="email"
+                placeholder="Email"
+              />
+              <textarea
+                required
+                type="text"
+                name="Message"
+                id="message"
+                placeholder="Your Message"
+              ></textarea>
+              <input type="submit" value="Submit" id="submit" />
+            </form>
+          </div>
+          <img
+            src="https://t3.ftcdn.net/jpg/06/05/16/18/360_F_605161840_rHNKtjqEo2ADf16hRTWi0ojlw9V6VN1e.jpg"
+          />
+        </div>
+        <footer>
+          <p>Let's Connect</p>
+          <p
+            style="
+              font-size: 10px;
+              color: gray;
+              line-height: 0;
+              padding-bottom: 1vw;
+            "
+          >
+            Find Me On
+          </p>
+          <div class="connects" style="display: flex">
+            <a href="https://github.com/ankityadav125"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+
+            <a href="https://www.linkedin.com/in/ankit-yadav-9445362a8/"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+
+            <a href="https://www.instagram.com/im_ankityadav125/"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+
+            <a
+              href="https://www.snapchat.com/add/ankit_yadav7491?share_id=OMQ7tMA1s3Q&locale=en-US"
+              ><i class="fa-brands fa-snapchat"></i
+            ></a>
+          </div>
+        </footer>
+      </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
